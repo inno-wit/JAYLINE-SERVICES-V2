@@ -205,8 +205,8 @@ const Contact = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Office Address</h3>
                     <p className="text-gray-600">
-                      Delano Annex, Ground Floor<br />
-                      King Kangundo Road<br />
+                      Beliani Annex, Ground Floor<br />
+                      Along Kangundo Road<br />
                       P.O. Box 5322-00100, Nairobi<br />
                       Kenya
                     </p>
@@ -260,10 +260,10 @@ const Contact = () => {
                 <MapPin className="w-16 h-16 text-green-600 mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Interactive Map</h3>
                 <p className="text-gray-600 mb-4">
-                  Delano Annex, Ground Floor, King Kangundo Road, Nairobi
+                  Beliani Annex, Ground Floor, Along Kangundo Road, Nairobi
                 </p>
                 <a 
-                  href="https://maps.google.com/?q=Delano+Annex+King+Kangundo+Road+Nairobi" 
+                  href="https://maps.app.goo.gl/sYV3vWHF6VxXPLSH8?g_st=aw" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-green-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-green-700 transition-colors inline-block"
