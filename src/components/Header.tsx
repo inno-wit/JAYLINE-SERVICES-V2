@@ -70,14 +70,7 @@ const Header = () => {
               >
                 Services
               </Link>
-              <Link 
-                to="/blog" 
-                className={`font-medium transition-colors ${
-                  isActive('/blog') ? 'text-green-600' : 'text-gray-700 hover:text-green-600'
-                }`}
-              >
-                Blog
-              </Link>
+              
               <Link 
                 to="/contact" 
                 className={`font-medium transition-colors ${
@@ -128,15 +121,7 @@ const Header = () => {
                 >
                   Services
                 </Link>
-                <Link 
-                  to="/blog" 
-                  className={`font-medium transition-colors ${
-                    isActive('/blog') ? 'text-green-600' : 'text-gray-700 hover:text-green-600'
-                  }`}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Blog
-                </Link>
+                
                 <Link 
                   to="/contact" 
                   className={`font-medium transition-colors ${
